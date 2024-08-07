@@ -3,45 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Branch Network</title>
+    <title>Branch Out Network</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f0f5f1;
+            background-color: #dfedd1;
             color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: left;
         }
-        .header {
-            text-align: center;
-            padding: 50px;
-            background-color: #e6f2e1;
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 1200px;
+            width: 100%;
+            padding: 20px;
         }
-        .header img {
-            max-width: 100%;
+        .main-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .main-content img {
+            width: 50%;
             height: auto;
         }
-        .header h1 {
+        .text {
+            margin-left: 20px;
+            width: 50%;
+        }
+        .text h1 {
+            font-family: 'JetBrains Mono', monospace;
             font-size: 3em;
             margin: 20px 0;
+            color: #333;
+            text-shadow: 2px 2px 0 #fff, 4px 4px 0 #ccc; /* Adding 3D text effect */
         }
-        .header p {
-            font-size: 1.2em;
+        .text p {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5em;
+            margin: 10px 0;
+            color: #666;
         }
-        .content {
-            padding: 20px;
+        .message {
+            margin-top: 20px;
             text-align: center;
         }
-        .content h2 {
-            font-size: 2em;
-            margin: 20px 0;
+        .message p {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2em;
+            color: #333;
         }
-        .content p {
-            font-size: 1.1em;
-            margin: 20px 0;
+        .message a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .message a:hover {
+            text-decoration: underline;
         }
         .footer {
             text-align: center;
-            padding: 20px;
+            padding: 1px;
             background-color: #e6f2e1;
             position: fixed;
             width: 100%;
@@ -50,17 +79,22 @@
     </style>
 </head>
 <body>
-    <div class="header">
-        <img src="https://i.postimg.cc/xjbyRmps/BON.png" alt="Branch Network">
-        <h1>Branch Network</h1>
-        <p>Grow your reach</p>
-    </div>
-    <div class="content">
-        <h2>About Us</h2>
-        <p>Branch Network is dedicated to helping you expand your reach and grow your network efficiently and effectively. Our innovative solutions ensure that you can connect with the right people and resources to take your business to the next level.</p>
+    <div class="container">
+        <div class="main-content">
+            <img src="https://i.postimg.cc/xjbyRmps/BON.png" alt="Branch Out Network">
+            <div class="text">
+                <h1>Branch Out Network</h1>
+                <p>Plant your seed...</p>
+                <p>Nurture your brand..</p>
+                <p>Grow your reach.</p>
+            </div>
+        </div>
+        <div class="message">
+            <p>Our network is currently under construction. In the meantime, check out our <a href="YOUR_LITEPAPER_URL" target="_blank">Litepaper</a></p>
+        </div>
     </div>
     <div class="footer">
-        <p>&copy; 2024 Branch Network. All rights reserved.</p>
+        <p>&copy; 2024 Branch Out Network. All rights reserved.</p>
     </div>
 </body>
 </html>
